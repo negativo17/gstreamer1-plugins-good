@@ -1,7 +1,7 @@
 %global         majorminor      1.0
 
 Name:           gstreamer1-plugins-good
-Version:        1.14.4
+Version:        1.14.5
 Release:        1%{?dist}
 Summary:        GStreamer plugins with good code and licensing
 License:        LGPLv2+
@@ -222,6 +222,9 @@ find %{buildroot} -name '*.la' -delete
 %{_libdir}/gstreamer-%{majorminor}/libgstjack.so
 
 %changelog
+* Tue Nov 08 2022 Simone Caronni <negativo17@gmail.com> - 1.14.5-1
+- Update to 1.14.5.
+
 * Mon Nov 11 2019 Simone Caronni <negativo17@gmail.com> - 1.14.4-1
 - Rebase on 1.14.4.
 
